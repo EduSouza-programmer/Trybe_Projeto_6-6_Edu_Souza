@@ -74,7 +74,7 @@ O Facebook é a rede social mais acessada do mundo, com uma audiência de mais d
 
 ### Concluído :rocket:
 
-Acesse o deploy do projeto [aqui](https://edusouza-programmer.github.io/Trybe_Projeto_5-7_Edu_Souza/).
+Acesse o deploy do projeto [aqui](https://edusouza-programmer.github.io/Trybe_Projeto_6-6_Edu_Souza/).
 
 #
 ## :unlock: Licença
