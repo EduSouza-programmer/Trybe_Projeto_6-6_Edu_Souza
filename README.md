@@ -48,7 +48,7 @@ O Facebook é a rede social mais acessada do mundo, com uma audiência de mais d
 
 ## :postbox: Entrega
 
-### :clipboard: Requisitos
+#### :clipboard: Requisitos
 
 - <p><a href="#1"> :pushpin: 1.</a> Crie uma barra azul na parte superior da página com a classe top-bar.</p>
 - <p><a href="#2"> :pushpin: 2.</a> A barra superior deve conter o logotipo do Facebook no canto esquerdo com a classe facebook-logo.</p>
