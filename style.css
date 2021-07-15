@@ -1,0 +1,243 @@
+body , header , img , form , p , label , input , section , fieldset , main , div , h1 {
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  border-bottom: 1px solid rgb(80, 80, 80);
+  display: flex;
+  justify-content: center;
+
+}
+
+.top-bar {
+
+  /* só para passar no requisito background-color. */
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  flex-basis: 1100px;
+  justify-content: space-between;
+}
+
+.facebook-logo {
+  flex-basis: 170px;
+  height: 60px;
+}
+
+.facebook-login {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.labelText {
+  color: azure;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.inputText {
+  background-image: linear-gradient(white, #e4e6ec);
+  border: 1px solid #314881;
+  height: 25px;
+  width: 155px;
+}
+
+.inputText:focus {
+  border: 1px solid #314881;
+  outline: none;
+}
+
+.forget {
+  color: rgb(141, 166, 206);
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+  text-decoration: none;
+
+}
+
+.forget:hover {
+  color: #ececec;
+  text-decoration: underline;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.buttonEnter {
+  align-self: center;
+  background-color: #4669af;
+  border: 1px solid #314881;
+  color: azure;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0 10px 25px;
+  padding: 4px;
+}
+
+.main-content {
+  background-image: linear-gradient(rgb(250, 250, 250), #d3d8e8);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+
+.left-content {
+  align-items: center;
+  display: flex;
+  flex-basis: 800px;
+  flex-direction: column;
+}
+
+.facebook-slogan {
+  color: rgb(27, 56, 95);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.facebook-networking {
+  margin-left: 50px;
+}
+
+.right-content {
+
+  /* background-color: rgb(43, 82, 82); */
+  flex-basis: 300px;
+}
+
+.title-form {
+  font-size: 32px;
+  padding-bottom: 7px;
+}
+
+.quick-easy {
+  padding-bottom: 25px;
+}
+
+.form-register {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteiner-open {
+  display: flex;
+
+}
+
+.input-register {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 4px;
+  height: 32px;
+  padding: 10px;
+  width: 140px;
+}
+
+.input-register:focus {
+  border: 1px solid  #4669af;
+  outline: none;
+}
+
+.conteiner-birthdate {
+  display: flex;
+}
+
+.conteiner-birthdate .interrogation {
+  align-self: center;
+  color: #606770;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.second-brother {
+  margin: 0 10px;
+}
+
+.input-large {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 290px;
+}
+
+.label-input {
+  color: rgb(135, 135, 136);
+  font-weight: 700;
+  margin: 16px 0 10px;
+}
+
+.input-date {
+  width: 170px;
+}
+
+.conteiner-radio {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.form-register .interrogation2 {
+  color: #606770;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 16px;
+}
+
+.politic {
+  color: rgb(96, 96, 97);
+  font-size: 12px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.term {
+  text-decoration: none;
+}
+
+.errorField {
+  color: red;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.isMensagerDisplayNone {
+  display: none;
+}
+
+.isInputDisplayNone {
+  display: none;
+}
+
+.button-submit {
+  background-image: linear-gradient(rgb(101, 169, 82), rgb(88, 139, 68));
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 28px;
+  padding: 10px 7px;
+  text-shadow: 1px 2px 1px rgb(54, 53, 53);
+  width: 200px;
+}
+
+.other {
+  border: 1px solid rgb(46, 84, 23);
+  color: azure;
+  cursor: pointer;
+  font-size: 16px;
+}
